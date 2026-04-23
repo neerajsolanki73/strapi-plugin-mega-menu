@@ -1,7 +1,7 @@
 <h1 align="center">Strapi + Mega Menu Builder</h1>
 
 <p align="center">
-  <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="1000" />
+  <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="700" />
 </p>
 
 <p align="center">
