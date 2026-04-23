@@ -1,13 +1,12 @@
-'use strict';
+import controllers = require('./controllers');
+import contentTypes = require('./content-types');
+import routeBundle = require('./routes');
+import services = require('./services');
 
-const controllers = require('./controllers');
-const contentTypes = require('./content-types');
-const routeBundle = require('./routes');
-const services = require('./services');
 const CUSTOM_FIELD_NAME = 'mega-menu-builder';
 
-module.exports = {
-  register({ strapi }) {
+const server = {
+  register({ strapi }: { strapi: any }) {
     strapi.customFields.register({
       name: CUSTOM_FIELD_NAME,
       plugin: 'mega-menu',
@@ -19,10 +18,12 @@ module.exports = {
     });
   },
 
-  bootstrap(/* { strapi } */) {},
+  bootstrap() {},
 
   controllers,
   services,
   contentTypes,
   routes: routeBundle.routes,
 };
+
+export = server;

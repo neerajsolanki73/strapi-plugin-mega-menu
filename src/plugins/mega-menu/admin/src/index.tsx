@@ -3,8 +3,8 @@ import { List } from '@strapi/icons';
 const PLUGIN_ID = 'mega-menu';
 const CUSTOM_FIELD_NAME = 'mega-menu-builder';
 
-export default {
-  register(app) {
+const adminEntry = {
+  register(app: any) {
     app.customFields.register({
       name: CUSTOM_FIELD_NAME,
       pluginId: PLUGIN_ID,
@@ -20,7 +20,7 @@ export default {
       },
       icon: List,
       components: {
-        Input: async () => import('./components/MegaMenuFieldInput.jsx'),
+        Input: async () => import('./components/MegaMenuFieldInput'),
       },
     });
 
@@ -32,3 +32,5 @@ export default {
 
   bootstrap() {},
 };
+
+export default adminEntry;

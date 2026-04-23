@@ -1,5 +1,3 @@
-'use strict';
-
 const authPolicies = ['admin::isAuthenticatedAdmin'];
 
 const routes = {
@@ -72,4 +70,4 @@ const routes = {
   ],
 };
 
-module.exports = routes;
+export = routes;

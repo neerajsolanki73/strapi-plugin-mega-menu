@@ -34,7 +34,7 @@ Add the plugin to your Strapi application:
 ```bash
 npm install @_ns/strapi-plugin-mega-menu
 ```
-  or
+ or
 ```bash
 yarn add @_ns/strapi-plugin-mega-menu
 ```

@@ -8,14 +8,14 @@
   },
   "exports": {
     "./strapi-admin": {
-      "import": "./admin/src/index.jsx",
-      "require": "./admin/src/index.jsx",
-      "default": "./admin/src/index.jsx"
+      "import": "./admin/src/index.tsx",
+      "require": "./admin/src/index.tsx",
+      "default": "./admin/src/index.tsx"
     },
     "./strapi-server": {
-      "import": "./strapi-server.js",
-      "require": "./strapi-server.js",
-      "default": "./strapi-server.js"
+      "import": "./strapi-server.ts",
+      "require": "./strapi-server.ts",
+      "default": "./strapi-server.ts"
     },
     "./package.json": "./package.json"
   }

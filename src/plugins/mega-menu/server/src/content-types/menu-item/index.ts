@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+const schema = {
   kind: 'collectionType',
   collectionName: 'mega_menu_items',
   info: {
@@ -36,3 +34,5 @@ module.exports = {
     },
   },
 };
+
+export = schema;
