@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="750" hight="500" />
+  <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="760" hight="480" />
 </p>
 <h1 align="center">Strapi ➕ Mega Menu Builder</h1>
 
