@@ -2,7 +2,7 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
-<h3>Plugin documentation for Mega Menu: `src/plugins/mega-menu/README.md`.</h3>
+<p style={font-bold}>Plugin documentation for Mega Menu: [`src/plugins/mega-menu/README.md`](src/plugins/mega-menu/README.md).</p>
 
 ### `develop`
 
