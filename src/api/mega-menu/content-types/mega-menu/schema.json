@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "mega_menus",
+  "info": {
+    "singularName": "mega-menu",
+    "pluralName": "mega-menus",
+    "displayName": "Mega-menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "megaMenu": {
+      "type": "customField",
+      "customField": "plugin::mega-menu.mega-menu-builder"
+    }
+  }
+}

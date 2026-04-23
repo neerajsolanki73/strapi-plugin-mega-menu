@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mega_menu_items",
+  "info": {
+    "singularName": "menu-item",
+    "pluralName": "menu-items",
+    "displayName": "Menu item",
+    "description": "Mega menu navigation item"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

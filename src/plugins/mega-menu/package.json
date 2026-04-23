@@ -1,0 +1,22 @@
+{
+  "name": "@_ns/strapi-plugin-mega-menu",
+  "version": "0.1.0",
+  "strapi": {
+    "name": "mega-menu",
+    "kind": "plugin",
+    "displayName": "Mega Menu"
+  },
+  "exports": {
+    "./strapi-admin": {
+      "import": "./admin/src/index.jsx",
+      "require": "./admin/src/index.jsx",
+      "default": "./admin/src/index.jsx"
+    },
+    "./strapi-server": {
+      "import": "./strapi-server.js",
+      "require": "./strapi-server.js",
+      "default": "./strapi-server.js"
+    },
+    "./package.json": "./package.json"
+  }
+}
