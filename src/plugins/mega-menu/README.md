@@ -1,4 +1,4 @@
-<h1 align="center">Strapi + Mega Menu Builder</h1>
+<h1 align="center">Strapi ➕ Mega Menu Builder</h1>
 
 <p align="center">
   <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="700" />
@@ -33,7 +33,9 @@ Add the plugin to your Strapi application:
 
 ```bash
 npm install @_ns/strapi-plugin-mega-menu
-# or
+```
+
+```bash
 yarn add @_ns/strapi-plugin-mega-menu
 ```
 
@@ -41,7 +43,9 @@ Then rebuild the admin panel:
 
 ```bash
 npm run build
-# or
+```
+
+```bash
 yarn build
 ```
 
@@ -49,7 +53,9 @@ Quick start (development):
 
 ```bash
 npm run develop
-# or
+```
+
+```bash
 yarn develop
 ```
 
