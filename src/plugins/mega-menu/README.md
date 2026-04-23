@@ -34,7 +34,7 @@ Add the plugin to your Strapi application:
 ```bash
 npm install @_ns/strapi-plugin-mega-menu
 ```
-
+or
 ```bash
 yarn add @_ns/strapi-plugin-mega-menu
 ```
@@ -44,7 +44,7 @@ Then rebuild the admin panel:
 ```bash
 npm run build
 ```
-
+or
 ```bash
 yarn build
 ```
@@ -54,7 +54,7 @@ Quick start (development):
 ```bash
 npm run develop
 ```
-
+or
 ```bash
 yarn develop
 ```
