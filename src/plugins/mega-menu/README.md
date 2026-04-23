@@ -1,8 +1,8 @@
-<h1 align="center">Strapi ➕ Mega Menu Builder</h1>
 
 <p align="center">
-  <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="700" />
+  <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="100%" hight="" />
 </p>
+<h1 align="center">Strapi ➕ Mega Menu Builder</h1>
 
 <p align="center">
   Reusable nested mega menu custom field for Strapi v5.
