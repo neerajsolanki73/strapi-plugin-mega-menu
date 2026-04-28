@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="760" hight="480" />
+  <img src="https://raw.githubusercontent.com/neerajsolanki73/strapi-plugin-mega-menu/main/src/plugins/mega-menu/assets/mega-menu-editor.png" alt="Mega Menu Builder editor preview" width="760" hight="480" />
 </p>
 <h1 align="center">Strapi ➕ Mega Menu Builder</h1>
 
@@ -69,14 +69,14 @@ The plugin is available as a **Custom Field** in Content-Type Builder.
 2. Add a new field and go to the **CUSTOM** tab.
 
 <p align="center">
-  <img src="./assets/usage-custom-tab.png" alt="Select Mega Menu Builder from custom tab" width="760" />
+  <img src="https://raw.githubusercontent.com/neerajsolanki73/strapi-plugin-mega-menu/main/src/plugins/mega-menu/assets/usage-custom-tab.png" alt="Select Mega Menu Builder from custom tab" width="760" />
 </p>
 
 3. Select **Mega Menu Builder**.
 
 
 <p align="center">
-  <img src="./assets/usage-add-field-form.png" alt="Add Mega Menu Builder field form" width="760" />
+  <img src="https://raw.githubusercontent.com/neerajsolanki73/strapi-plugin-mega-menu/main/src/plugins/mega-menu/assets/usage-add-field-form.png" alt="Add Mega Menu Builder field form" width="760" />
 </p>
 
 4. Save the content type and restart Strapi if required.
