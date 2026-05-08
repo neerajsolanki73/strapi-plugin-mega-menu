@@ -1,12 +1,14 @@
 {
   "name": "@_ns/strapi-plugin-mega-menu",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
-
+  "author": {
+    "name": "Neeraj Solanki",
+    "email": "neeraj2000solanki@gmail.com"
+  },
   "peerDependencies": {
     "@strapi/strapi": "^4.0.0 || ^5.0.0"
   },
-
   "strapi": {
     "name": "mega-menu",
     "kind": "plugin",
